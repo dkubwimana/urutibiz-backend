@@ -1,0 +1,13 @@
+# UrutiBiz Backend - Render Deployment
+
+## Build Command
+npm install && npm run build
+
+## Start Command
+npm start
+
+## Environment
+Node
+
+## Health Check Path
+/api/v1/health

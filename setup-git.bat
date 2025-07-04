@@ -35,8 +35,8 @@ echo    git push -u origin main
 echo.
 echo 📋 Alternative: If you want to push to an existing repository:
 echo    git remote add origin https://github.com/dkubwimana/urutibiz-backend.git
-echo    git branch -M main
-echo    git push -u origin main
+git branch -M main
+git push -u origin main
 echo.
 echo 🎯 Repository is ready for GitHub!
 pause

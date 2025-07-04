@@ -28,13 +28,13 @@ echo 2. Copy the repository URL (HTTPS or SSH)
 echo 3. Run the following commands:
 echo.
 echo    # Add your GitHub repository as remote origin
-echo    git remote add origin https://github.com/YOUR_USERNAME/urutibiz-backend.git
+echo    git remote add origin https://github.com/dkubwimana/urutibiz-backend.git
 echo.
 echo    # Push to GitHub
 echo    git push -u origin main
 echo.
 echo 📋 Alternative: If you want to push to an existing repository:
-echo    git remote add origin https://github.com/YOUR_USERNAME/your-repo-name.git
+echo    git remote add origin https://github.com/dkubwimana/urutibiz-backend.git
 echo    git branch -M main
 echo    git push -u origin main
 echo.

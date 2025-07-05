@@ -12,6 +12,7 @@ import categoriesRoutes from './categories.routes';
 import productImagesRoutes from './productImages.routes';
 import productAvailabilityRoutes from './productAvailability.routes';
 import businessRulesRoutes from './businessRules.routes';
+import countryRoutes from './country.routes';
 
 const router = Router();
 
@@ -36,6 +37,7 @@ router.use('/api/categories', categoriesRoutes);
 router.use('/product-images', productImagesRoutes);
 router.use('/product-availability', productAvailabilityRoutes);
 router.use('/business-rules', businessRulesRoutes);
+router.use('/countries', countryRoutes);
 
 // Placeholder routes - remove when actual routes are implemented
 router.get('/', (_req, res) => {
@@ -47,6 +49,7 @@ router.get('/', (_req, res) => {
       users: '/api/v1/users',
       products: '/api/v1/products',
       bookings: '/api/v1/bookings',
+      countries: '/api/v1/countries',
       payments: '/api/v1/payments',
       reviews: '/api/v1/reviews',
       messages: '/api/v1/messages',
